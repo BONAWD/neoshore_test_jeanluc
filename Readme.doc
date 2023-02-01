@@ -1,0 +1,83 @@
+Avant de commencer :
+1) On a besoin d'installer nodejs sur l'ordinateur.
+2) naviguez sur les deux projet :
+	le dossier ? api (expressjs backend)
+	le dossier ? apps (vuejs frontEnd)
+3) dans le dossier api :
+	exécute la commande suivante :
+	yarn install ou npm install (de mon côté j'ai utilisé yarn) pour installer node_module du côté api.
+s'il y a une erreur d'installation module installer manuel, sa va être le cas de nodemon(yarn install nodemon)
+4) dans le dossier apps :
+	exécute la commande suivant :
+	yarn install ou npm install pour installer node_module du côté apps.
+5) Télécharger et installer postgresql pour importer la base de données dans le dossier api/src/databases.
+Le nom du fichier sql à importer est : neoshore.sql.
+Apres l'importation, configurer le fichier .env dans le dossier api :
+DATABASE_USER = 'postgres'
+DATABASE_PASSWORD = 'votre mot de passe'
+DATABASE_NAME = 'neoshore'
+PORT = 5001
+6) après, naviguez dans les deux dossier :
+Dans le dossier apps :
+	exécute la commande :
+	- yarn serve ou npm serve
+
+pour lancer l'application
+Dans le dossier api :
+	exécute la commande :
+	- yarn start ou npm start
+
+
+
+
+ Merci,
+
+Nom : BONARIJAONA Jean luc
+email : bonajeanluc@gmail.com
+tel : 0346146388
+
+
+Ralison Résultat :
+
+Les différentss Screeen Tests
+
+1- Dashboard
+
+2- Add new task
+
+
+
+
+3- Update task
+
+
+4- Remove task
+
+
+5- Dashboard afeter removed one task
+
+6- Database side (Postgres)
+
+
+
+
+Jean Luc config côté PgAdmin 4
+1- Naviguer vers la barre de navigation Préférences
+
+
+
+2- Recherche dans le dossier C:\Program Files\PostgreSQL\15\bin et copié le sur le EDB Advanced server de la version de votre postgresql
+
+
+
+3- Créer la base de données nommé neoshore
+
+
+
+4- Restaurer la base de données
+
+
+
+
+
+Et puis clic sur le buton Restore
